@@ -8,6 +8,11 @@ This is a web application that generates random or custom memes. An image will b
 
 Download and install the pdftotext command line tool from: https://www.xpdfreader.com/download.html
 
+##### Python Libraries Needed
+
+- Pandas
+- 
+
 ### Application
 
 Application can be started by running the command:
