@@ -11,16 +11,23 @@ Download and install the pdftotext command line tool from: https://www.xpdfreade
 ##### Python Libraries Needed
 
 - Pandas
-- 
+- Pillow
+- Flask
+- Python-docx
 
 ### Application
 
-Application can be started by running the command:
+The web application can be started by running the command:
 ```bash
 python app.py
 ```
 
-You can access the application at: https://localhost:5000
+The local meme application can be started by running the command:
+```bash
+python meme.py
+```
+
+You can access the application at: http://localhost:5000 or http://127.0.0.1:5000
 
 #### Submodules
 
