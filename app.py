@@ -63,7 +63,7 @@ def meme_form():
 def meme_post():
     """ Create a user defined meme """
     tmp = "./temp_image.jpg"
-    img_url = request.form.get["image_url"]
+    img_url = request.form.get("image_url")
     img_data = requests.get(img_url)
     try:
         with open(tmp, 'wb') as open_file:
@@ -71,7 +71,7 @@ def meme_post():
             body = request.form["body"]
             author = request.form["author"]
             path = meme.make_meme(tmp, body, author)
-            os.remove(tmp)
+        os.remove(tmp)
         return render_template('meme.html', path=path)
     except:
         return render_template('error.html')
