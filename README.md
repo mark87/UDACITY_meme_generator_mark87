@@ -33,7 +33,18 @@ You can access the web application at: http://localhost:5000 or http://127.0.0.1
 ## Module Descriptions
 This project has two engines. A QuoteEngine and a MemeEngine. They both help create memes from images and text found in various file types.
 
-### Quote Engine
+### QuoteEngine
+The QuoteEngine module reads quotes from various file types (txt, docx, pdf, csv) and saves it into a quote list. This engine is capable of reading in new file types as long as the a new module file is created for the new file type. This is because some file types require special python libraries in order to be read correctly. This new file is consider an "Injester".
+
+### MemeEngine
+The MemeEngine module has an image manipulator class MemeEngine the can modify an image and save it to a path. This image is modified based on class attribute parameters.
+
+```bash
+'''Define meme format attributes'''
+    meme_fill = 'white'  # Text fill color
+    meme_factor = 18  # Font scale smalller relative to width
+    meme_font = './arial.ttf'  # truetype font of the meme
+    ```
 
 ## Built With
 
