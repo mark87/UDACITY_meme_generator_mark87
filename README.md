@@ -1,4 +1,4 @@
-#Meme Generator
+# Meme Generator
 
 This is a web application that generates random or custom memes. An image will be overlaid with a quote from an author. The quotes are obtained from various file types that are read by the application. The image chosen is also formatted to be a specific width (500 pixels). This application also accpets dynamic user input through a command-line tool and a web service (Flask).
 
