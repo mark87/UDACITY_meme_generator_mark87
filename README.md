@@ -15,23 +15,20 @@ Created "requirements.txt" file by using the following command in the command li
 py -m  pipreqs.pipreqs .
 ```
 
-### Application
+### How to Run Application
 
-The web application can be started by running the command:
+To run the local meme generator use the command line interface and type in the following below. The '--arg {arg_tring}' are optional arguments.
+
+```bash
+py meme.py --path {image_path} --body {quote_body} -- author {quote_author}
+```
+
+To run the web app use the command line interface and type in the following below.
 ```bash
 py app.py
 ```
 
-The local meme application can be started by running the command:
-```bash
-py meme.py
-```
-
-You can access the application at: http://localhost:5000 or http://127.0.0.1:5000
-
-#### Submodules
-
-
+You can access the web application at: http://localhost:5000 or http://127.0.0.1:5000
 
 ## Built With
 
