@@ -57,8 +57,8 @@ The MemeEngine chooses at random, a quote and an image, and resizes the image wh
 
 ## Built With
 
-Spyder (Python 3.7) - Part of Anaconda Application Suite
-Flask - The python server micro framework
+- Spyder (Python 3.7) - Part of Anaconda Application Suite
+- Flask - The python server micro framework
 
 ## Acknowledgments
 
