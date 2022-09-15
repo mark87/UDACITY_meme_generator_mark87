@@ -15,7 +15,7 @@ Created "requirements.txt" file by using the following command in the command li
 py -m  pipreqs.pipreqs .
 ```
 
-###How to Run Application
+### How to Run Application
 
 To run the local meme generator use the command line interface and type in the following below. The '--arg {arg_tring}' are optional arguments.
 
