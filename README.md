@@ -25,7 +25,9 @@ py meme.py --path {image_path} --body {quote_body} -- author {quote_author}
 
 To run the web app use the command line interface and type in the following below.
 
+```bash
 py app.py
+```
 
 You can access the web application at: http://localhost:5000 or http://127.0.0.1:5000
 
