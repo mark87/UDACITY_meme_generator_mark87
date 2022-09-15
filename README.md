@@ -30,6 +30,8 @@ py app.py
 
 You can access the web application at: http://localhost:5000 or http://127.0.0.1:5000
 
+*Note that your browser may instead use 'https:\\' to open the application. Make sure it uses 'http:\\' or else you won't be able to view the web app.
+
 ## Module Descriptions
 This project has two engines. A QuoteEngine and a MemeEngine. They both help create memes from images and text found in various file types.
 
@@ -37,7 +39,7 @@ This project has two engines. A QuoteEngine and a MemeEngine. They both help cre
 The QuoteEngine module reads quotes from various file types (txt, docx, pdf, csv) and saves it into a quote list. This engine is capable of reading in new file types as long as the a new module file is created for the new file type. This is because some file types require special python libraries in order to be read correctly. This new file is consider an "Injester".
 
 ### MemeEngine
-The MemeEngine module has an image manipulator class MemeEngine the can modify an image and save it to a path. This image is modified based on class attribute parameters.
+The MemeEngine module has an image manipulator class MemeEngine the can modify an image and save it to a path. This image is modified based on class attribute parameters. The default parameters are listed below:
 
 ```bash
 '''Define meme format attributes'''
@@ -45,6 +47,7 @@ The MemeEngine module has an image manipulator class MemeEngine the can modify a
     meme_factor = 18  # Font scale smalller relative to width
     meme_font = './arial.ttf'  # truetype font of the meme
 ```
+The MemeEngine chooses at random, a quote and an image, and resizes the image while maintaing the aspect ratio. It then adds the quote atop the image according to the class attribute paramters above.
 
 ## Built With
 
