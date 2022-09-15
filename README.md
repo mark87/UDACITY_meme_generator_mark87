@@ -44,7 +44,7 @@ The MemeEngine module has an image manipulator class MemeEngine the can modify a
     meme_fill = 'white'  # Text fill color
     meme_factor = 18  # Font scale smalller relative to width
     meme_font = './arial.ttf'  # truetype font of the meme
-    ```
+```
 
 ## Built With
 
