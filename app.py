@@ -32,8 +32,9 @@ def setup():
 
     # Look at each file in image_path directory
     for image in os.listdir(images_path):
-        # Save file name to image_list list
-        image_list.append(image)
+        if image.endswith('jpg'):
+            # Save file name to image_list list
+            image_list.append(os.path.join(images_path, image))
 
     imgs = image_list
 
@@ -63,7 +64,7 @@ def meme_post():
     """ Create a user defined meme """
     tmp = "./temp_image.jpg"
     img_url = request.form.get["image_url"]
-    img_data = requests.get(img_url, allow_redirects=True)
+    img_data = requests.get(img_url)
     try:
         with open(tmp, 'wb') as open_file:
             open_file.write(img_data.content)
@@ -78,5 +79,4 @@ def meme_post():
 
 if __name__ == "__main__":
     app.run()
-
 
