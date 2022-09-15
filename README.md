@@ -30,6 +30,11 @@ py app.py
 
 You can access the web application at: http://localhost:5000 or http://127.0.0.1:5000
 
+## Module Descriptions
+This project has two engines. A QuoteEngine and a MemeEngine. They both help create memes from images and text found in various file types.
+
+### Quote Engine
+
 ## Built With
 
 * [Flask](http://flask.pocoo.org/) - The python server micro framework
