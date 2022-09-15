@@ -19,12 +19,12 @@ py -m  pipreqs.pipreqs .
 
 The web application can be started by running the command:
 ```bash
-python app.py
+py app.py
 ```
 
 The local meme application can be started by running the command:
 ```bash
-python meme.py
+py meme.py
 ```
 
 You can access the application at: http://localhost:5000 or http://127.0.0.1:5000
