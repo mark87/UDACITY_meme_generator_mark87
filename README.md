@@ -9,11 +9,11 @@ This is a web application that generates random or custom memes. An image will b
 Download and install the pdftotext command line tool from: https://www.xpdfreader.com/download.html
 
 ##### Python Libraries Needed
+Created requirements.txt file by using the following command in the command line interface on Windows 10. This file contains all of the libraries I had to download for the program to function properly.
 
-- Pandas
-- Pillow
-- Flask
-- Python-docx
+'''bash
+py -m  pipreqs.pipreqs .
+'''
 
 ### Application
 
