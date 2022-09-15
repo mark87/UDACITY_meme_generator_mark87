@@ -11,9 +11,9 @@ Download and install the pdftotext command line tool from: https://www.xpdfreade
 ##### Python Libraries Needed
 Created requirements.txt file by using the following command in the command line interface on Windows 10. This file contains all of the libraries I had to download for the program to function properly.
 
-'''bash
+```bash
 py -m  pipreqs.pipreqs .
-'''
+```
 
 ### Application
 
